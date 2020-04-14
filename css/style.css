@@ -215,7 +215,16 @@ footer {
 /* Media Queries */
 
 @media only screen and (max-width: 690px) {
-
+    div#hacker{
+    background-size: 280vw;
+    }
+    #top{
+        background:url('../img/background-2.jpeg');
+        background-size: 400px;
+        background-attachment: fixed;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+    }
     section {
         display: block;
     }
